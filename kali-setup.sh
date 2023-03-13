@@ -10,7 +10,7 @@ fi
 sudo apt update
 
 # install most used software
-programs = "gdb python3-pwntools armitage gobuster htop rlwrap zaproxy peass seclists"
+programs="gdb python3-pwntools armitage gobuster htop rlwrap zaproxy peass seclists"
 
 sudo apt install $programs
 
