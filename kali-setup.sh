@@ -18,6 +18,6 @@ sudo apt install $programs
 searchsploit -u
 
 # download most used software repositories
-git clone https://github.com/pwndbg/pwndbg.git ~/
+git clone https://github.com/pwndbg/pwndbg.git /home/kali
 
-git clone https://github.com/SNGWN/Burp-Suite.git ~/
+git clone https://github.com/SNGWN/Burp-Suite.git /home/kali
