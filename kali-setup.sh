@@ -1,11 +1,5 @@
 #!/usr/bin/bash
 
-# Check if this script is running as sudo
-if [ "$EUID" -ne 0 ]
-    then echo "[-] Please run this script with sudo"
-    exit
-fi
-
 # Update repositories list
 sudo apt update
 
